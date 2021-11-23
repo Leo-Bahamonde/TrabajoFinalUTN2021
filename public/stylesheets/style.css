@@ -1,0 +1,97 @@
+
+
+/* MAPA */
+
+@media screen and (max-width:810px){
+  .mapStyles{
+    width:110%;
+    height:300%; 
+}
+}
+
+
+
+/* FIN MAPA */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer - pie de pagina*/
+.container-footer{
+  
+  width: 100%;
+  padding: 10px ;
+
+  margin-top: 100px;
+  }
+  .container-footer footer{
+  max-width: 1200px;
+  margin: auto;
+  }
+  .container-footer footer .logo-footer{
+  text-align: center;
+  }
+  .container-footer footer .logo-footer img{
+  width: 100px;
+  }
+  .container-footer footer .redes-footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  }
+  .container-footer footer .icon-redes-footer{
+  font-size: 20px;
+  margin: 20px;
+  background: #41579A;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: #fff;
+  }
+
+  footer .redes-footer .fa-instagram{
+  background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
+  color: #fff;
+  }
+  .container-footer footer hr{
+  margin-top: 20px;
+  border: none;
+  height: 5px;
+  background: rgb(208, 134, 100);
+  display: block;
+  }
+  .container-footer h4{
+  text-align: center;
+  margin-top: 40px;
+  color:#000000;
+  font-weight: 500;
+  }

@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<title>Login</title>
+<html style="font-size: 16px;">
+  <body data-home-page="About.html" data-home-page-title="About" class="u-body">
+    <section src="" id="carousel_681f" data-image-width="1980" data-image-height="1237">
+      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-xl u-sheet-1">
+        <div class="u-align-left u-container-style u-group u-white u-group-1 m-5">
+          <div class="u-container-layout u-valign-middle u-container-layout-1">
+            <h2 class="u-custom-font u-font-ubuntu u-text u-text-1">Inicia secion</h2>
+            <h5>Ingresa tu email y tu clave de SillonesFB</h5>
+            <div class="u-expanded-width u-form u-form-1">
+
+              <form action="/admin/login" method="post" >
+                <div >
+                  <input type="text" placeholder="Ingresa tu e-mail" id="usuario" name="usuario" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-white u-input-1" required="">
+                </div>
+                <div >
+                  <input type="password" placeholder="Ingresa tu clave" id="password" name="password" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-white u-input-1" required="">
+                </div>
+                <div >
+                  <button type="submit" class="u-active-grey-75 u-black u-border-1 u-border-active-grey-75 u-border-black u-border-hover-grey-75 u-btn u-btn-submit u-button-style u-hover-grey-75 u-btn-1" >Inicia secion</button> 
+                </div>
+                  <p>Aun no tienes cuenta? As  <a href="/admin/logout">click aqui</a> para registrarte, es rapido y gratis!</p>
+              </form>
+              {{#if error}}
+              <p style="color:red">*Usuario o contraseña incorrecta</p>
+              {{/if}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+  </body>
+</html>

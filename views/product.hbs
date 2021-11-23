@@ -1,0 +1,36 @@
+<title>Productos</title>
+{{#each novedades}}
+  <div class="container text-center my-3">                          
+    <div class="align-items-center"><hr>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+            <img src={{imagen}} alt="ESQUINERO" title="ESQUINERO" width="350px" height="auto">
+        </div>
+          
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4" >
+            <h2>{{titulo}}</h2>
+            <hr width="50%">
+            <h4 class="pt-2">Descripcion</h4>
+            <i>{{cuerpo}} </i><br><br>
+            <h5>Precio:<b> ${{subtitulo}}</b></h5>
+            
+                <a href="" class="btn btn-primary" type="submit">COMPRAR</a>
+                <a href="" class="btn btn-primary" type="submit">AGREGAR AL CARRITO</a>   
+        </div>
+      </div>
+     </div><br>
+  </div>
+{{/each}} 
+
+    <!--FIN PAGINAS-->
+
+
+
+<script src="lightbox2-2.11.3/dist/js/lightbox-plus-jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"crossorigin="anonymous"></script>
+</body>
+</html>
+  
+ 
